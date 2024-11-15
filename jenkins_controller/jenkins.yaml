@@ -67,9 +67,9 @@ credentials:
           scope: GLOBAL
 
 jobs:
-  - file: /usr/share/jenkins/ref/jobs/backend.groovy
-  - file: /usr/share/jenkins/ref/jobs/frontend.groovy
-  - file: /usr/share/jenkins/ref/jobs/app_of_apps.groovy
+  - file: /usr/share/jenkins/ref/jobs/1backend.groovy
+  - file: /usr/share/jenkins/ref/jobs/1frontend.groovy
+  - file: /usr/share/jenkins/ref/jobs/1app_of_apps.groovy
 
 tool:
   sonarRunnerInstallation:
