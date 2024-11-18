@@ -36,7 +36,7 @@ credentials:
           username: "jenkins"
           privateKeySource:
             directEntry:
-              privateKey: |
+              privateKey:
                 -----BEGIN RSA PRIVATE KEY-----
                 MIIEpAIBAAKCAQEAmicV5fguBrJiHK7F0Ppqkv7fUjbBa7Y+S333Zza/PvWuNFFB
                 w19ZintulPKEmqwnIi2BLV1rFrZdVZkEuiQHVSOb2SktidDbeqHvgB/ctj4S+sLa
