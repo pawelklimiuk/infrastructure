@@ -13,3 +13,4 @@ pipelineJob('frontend') {
             }
         }
     }
+}
