@@ -81,6 +81,15 @@ tool:
           - sonarRunnerInstaller:
               id: "5.0.1.3006"
 
+  terraform:
+    installations:
+    - name: "Terraform"
+      properties:
+      - installSource:
+          installers:
+          - terraformInstaller:
+              id: "20413-linux-amd64"
+
 unclassified:
   location:
     url: "http://192.168.44.44:8880/"
