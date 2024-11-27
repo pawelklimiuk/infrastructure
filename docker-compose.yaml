@@ -45,7 +45,7 @@ services:
     restart: always
 
   # Dodatkowy agent jenkinsa
-    jenkins_agent1:
+  jenkins_agent1:
     depends_on:
       - jenkins
     container_name: jenkins_agent
