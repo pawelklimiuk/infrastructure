@@ -26,7 +26,7 @@ credentials:
   system:
     domainCredentials:
     # z palca dodajemy kredki dla dockerhuba - registryCredentials="dockerhub"
-    # i terraforma z aws - ....
+    # i terraforma z aws - z excela: Access key ID,Secret access key
     - credentials:
       - usernamePassword:
           id: "artifactory"
@@ -67,7 +67,7 @@ credentials:
                 o1epS4clbUspxKat9tbIIRccKa9GWXVDNLih8TslLCBoL/knJc+aqw==
                 -----END RSA PRIVATE KEY-----
           scope: GLOBAL
-          
+
 # dodane dla drugiego agenta jenkinsa          
       - basicSSHUserPrivateKey:
           id: "jenkins_agent1"
